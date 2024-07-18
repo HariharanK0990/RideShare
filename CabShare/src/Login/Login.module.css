@@ -1,0 +1,56 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.h1 {
+  text-align: center;
+  font-family: "Inter";
+  color: rgba(200, 200, 200, 0.9);
+  backdrop-filter: 2px;
+}
+
+.h2 {
+  margin-top: 40%;
+  text-align: center;
+  font-family: "Inter";
+  color: rgba(200, 200, 200, 0.9);
+  backdrop-filter: 2px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.input {
+  width: auto;
+  height: 40px;
+  margin: 20px 60px 20px 60px;
+  background-color: rgba(77, 37, 77, 0.774);
+  color: white;
+  font-family: "Roboto";
+  outline: none;
+  border: none;
+}
+
+.loginButton {
+  margin: auto;
+  width: 80px;
+  height: 40px;
+  background-color: rgba(88, 88, 88, 0.603);
+  border: none;
+  color: white;
+}
+
+.newButton {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-weight: 100;
+  font-family: "Roboto";
+}

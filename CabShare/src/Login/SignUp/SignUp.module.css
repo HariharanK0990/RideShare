@@ -1,0 +1,52 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.h1 {
+  text-align: center;
+  font-family: "Inter";
+  color: rgba(200, 200, 200, 0.9);
+  backdrop-filter: 2px;
+  margin-bottom: 50px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.input {
+  width: auto;
+  height: 40px;
+  margin: 20px 60px 20px 60px;
+  background-color: rgba(77, 37, 77, 0.774);
+  color: white;
+  font-family: "Roboto";
+  outline: none;
+  border: none;
+}
+
+.inputFile {
+  width: max-content;
+  height: 20px;
+  margin: 5px 60px 5px 60px;
+  color: rgb(199, 199, 199);
+  font-family: "Roboto";
+  outline: none;
+  border: none;
+}
+
+.create {
+  margin: auto;
+  margin-top: 40px;
+  width: 80px;
+  height: 40px;
+  background-color: rgba(88, 88, 88, 0.603);
+  border: none;
+  color: white;
+}
